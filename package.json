@@ -25,7 +25,7 @@
     "test": "jest --coverage",
     "test:ci": "pnpm test --ci",
     "test:watch": "jest --watch",
-    // "prepare": "husky install",
+    "prepare": "husky install",
     "prepublish": "npm run build",
     "commit": "cz",
     "storybook": "start-storybook -p 6006 --quiet",
